@@ -1,4 +1,20 @@
---[[
+--''gbprod/phpactor.nvim',
+  build = function()
+    require 'phpactor.handler.update'()
+  end,
+  dependencies = {
+    'nvim-lua/plenary.nvim',
+    'neovim/nvim-lspconfig',
+  },
+  opts = {},gbprod/phpactor.nvim',
+  build = function()
+    require 'phpactor.handler.update'()
+  end,
+  dependencies = {
+    'nvim-lua/plenary.nvim',
+    'neovim/nvim-lspconfig',
+  },
+  opts = {},[[
 --
 -- This file is not required for your own configuration,
 -- but helps people determine if their system is setup correctly.
